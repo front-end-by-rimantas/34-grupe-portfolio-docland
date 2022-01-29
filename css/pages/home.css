@@ -3,6 +3,7 @@
 @import '../base/responsive.css';
 
 /* 3rd-party */
+@import '../bootstrap/bootstrap-grid.min.css';
 
 /* components */
 @import '../components/button.css';
