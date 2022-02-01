@@ -7,10 +7,35 @@ body * {
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-        sans-serif;
+    color: #702070;
+    font-size: 20px;
+    line-height: 1.78;
 }
 
 :root {
-    --primary-color: #36f;
+    --background-color: #f6f8f5;
+    --primary-color-green: #5dd9c1;
+    --primary-color-yellow: #fbc006;
+    --primary-color-purple: #5f52dc;
+    --secondary-color-green: #c9fff5;
+
+    --carousel-color-purple: #bf87ff;
+    --carousel-color-yellow: #ffcb87;
+    --carousel-color-skyblue: #85cfff;
+    --carousel-color-blue: #85b6ff;
+    --carousel-color-darkblue: #929dff;
+
+    --carouselsmall-color-green: #e6fffa;
+    --carouselsmall-color-yellow: #fff6db;
+    --carouselsmall-color-skyblue: #d7eff9;
+    --carouselsmall-color-purple: #e9e6ff;
+
+    --headertext-color-grey: #5c6b56;
+
+    --font-header: Hind,sans-serif;
+    --font-text: Ubuntu,sans-serif;
+
+    --h1-font-size: 60px;
+    --h2-font-size: 40px;
+    --h3-font-size: 30px;
 }
