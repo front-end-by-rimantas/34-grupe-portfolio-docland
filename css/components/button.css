@@ -1,0 +1,18 @@
+.btn_yellow-to-green {
+  text-decoration: none;
+  border-radius: 6px;
+  color: #fff;
+  background-color: var(--primary-color-yellow);
+  padding: 15px 33px;
+  margin-right: 26px;
+  text-align: center;
+  display: inline-block;
+  line-height: 1;
+  font-size: 18px;
+  position: relative;
+  cursor: pointer;
+}
+
+.btn_yellow-to-green:hover {
+  background-color: var(--primary-color-green);
+}
