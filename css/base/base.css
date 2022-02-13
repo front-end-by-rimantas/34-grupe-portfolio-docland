@@ -1,41 +1,40 @@
 body,
 body * {
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    color: #702070;
-    font-size: 20px;
-    line-height: 1.78;
+  color: #702070;
+  font-size: 20px;
+  line-height: 1.78;
 }
 
 :root {
-    --background-color: #f6f8f5;
-    --primary-color-green: #5dd9c1;
-    --primary-color-yellow: #fbc006;
-    --primary-color-purple: #5f52dc;
-    --secondary-color-green: #c9fff5;
+  --background-color: #f6f8f5;
+  --primary-color-green: #5dd9c1;
+  --primary-color-yellow: #fbc006;
+  --primary-color-purple: #5f52dc;
+  --secondary-color-green: #c9fff5;
 
-    --carousel-color-purple: #bf87ff;
-    --carousel-color-yellow: #ffcb87;
-    --carousel-color-skyblue: #85cfff;
-    --carousel-color-blue: #85b6ff;
-    --carousel-color-darkblue: #929dff;
+  --carousel-color-purple: #bf87ff;
+  --carousel-color-yellow: #ffcb87;
+  --carousel-color-skyblue: #85cfff;
+  --carousel-color-blue: #85b6ff;
+  --carousel-color-darkblue: #929dff;
 
-    --carouselsmall-color-green: #e6fffa;
-    --carouselsmall-color-yellow: #fff6db;
-    --carouselsmall-color-skyblue: #d7eff9;
-    --carouselsmall-color-purple: #e9e6ff;
+  --carouselsmall-color-green: #e6fffa;
+  --carouselsmall-color-yellow: #fff6db;
+  --carouselsmall-color-skyblue: #d7eff9;
+  --carouselsmall-color-purple: #e9e6ff;
 
-    --headertext-color-grey: #5c6b56;
+  --headertext-color-grey: #5c6b56;
 
-    --font-header: Hind,sans-serif;
-    --font-text: Ubuntu,sans-serif;
+  --font-header: Hind, sans-serif;
+  --font-text: Ubuntu, sans-serif;
 
-    --h1-font-size: 60px;
-    --h2-font-size: 40px;
-    --h3-font-size: 30px;
+  --h1-font-size: 60px;
+  --h2-font-size: 40px;
+  --h3-font-size: 30px;
 }
