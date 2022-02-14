@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+
+.containerHeight{
+    height: 100px;
+}
+
+#logoSize{ 
+    height: 23px;
+    width: 126px;
+}
+
+.logoPadding{
+    padding-left: 120px;
+}
+
+.mainMeniuText{
+    font-family: var(--font-text);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 24px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.textColorGrey{
+    color: var(--headertext-color-grey);
+    transition: color 0.5s ease-out;
+}
+
+.textColorGrey:hover{
+    color: var(--primary-color-green);
+}
+
+.textColorBlue{ 
+    color: var(--primary-color-green);
+}
+
+.loginButton{ 
+    color: var(--primary-color-yellow);
+    margin-right: 36px;
+    position: relative; 
+}
+
+.loginButton:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: var(--primary-color-yellow);
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+ }
+  
+
+  /* optional hover classes used with anmiation */
+  .loginButton:hover:after {
+       width: 80%;
+       background: orange;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+.listStyle{
+    list-style: none;
+    height: 100px;
+    margin: 0px 26px 0px 55px;
+}
+
+.headerFont{
+    font-family: var(--font-text);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.headerButton{
+    width: 140px;
+    height: 50px;
+    background-color: var(--primary-color-green);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    font-family: Hind,sans-serif;
+    margin-right: 30px;
+    transition: background-color 0.5s ease-out;
+}
+
+.headerButton:hover{
+    background-color: var(--primary-color-yellow);
+}
+
+.innerMenu{
+    padding: 0px 15px;
+}
+
+@media only screen and (min-width: 1200px) and (min-width: 1500px) {
+    .container{
+        max-width: 1410px;
+    }
+    .containerHeight{
+        justify-content: space-between;
+    }
+    .innerMenu{
+        justify-content: flex-end;
+    }
+  }
+
+  
+@media only screen and (max-width: 1199px) {
+    .mainMeniuText{
+        padding: 0 10px;
+    }
+  }
